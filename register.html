@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Website || Register Page</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/style-rtl.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a class="brand" href="index.html">OTA Shoes</a>
+          <nav>
+            <ul>
+              <li><a href="login.html">Sign In</a></li>
+              <li><a href="register.html">Sign Up</a></li>
+              
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-form">
+      <h2>Register User</h2>
+      <form novalidate>
+        <input type="text" placeholder="Enter Username" id="username" />
+        <input type="text" placeholder="Enter E-mail" id="email" />
+        <input type="password" placeholder="Enter Password" id="password" />
+
+        <input type="submit" value="sign Up" id="sign-up" />
+
+       <p  class="signP">You Have an Account <a class="signA" href="login.html">Log In</a></p> 
+      </form>
+    </section>
+
+    <script src="JS/register.js"></script>
+  </body>
+</html>
